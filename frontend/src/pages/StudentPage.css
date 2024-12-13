@@ -1,0 +1,81 @@
+/* Navbar Styling */
+.navbar-asu {
+  background-color: #8c1d40; /* ASU Maroon */
+  color: #FFFFFF; /* White text */
+}
+
+.navbar-asu .navbar-brand {
+  color: #FFFFFF; /* White text */
+  font-weight: bold;
+}
+
+.navbar-asu .nav-link-asu {
+  color: #FFC627; /* ASU Gold */
+  font-weight: bold;
+}
+
+.navbar-asu .nav-link-asu:hover {
+  color: #FFFFFF; /* White on hover */
+}
+  
+  /* Student Info Section */
+  .student-info h1 {
+    color: #8C1D40; /* ASU Maroon */
+  }
+  
+  .student-info h4 {
+    color: #747474; /* ASU Gray */
+  }
+  
+  .badge-card {
+    border: 2px solid #FFC627; /* ASU Gold border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Prevent image overflow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Hover animation */
+  }
+  
+  .badge-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  .badge-image {
+    object-fit: cover;
+    height: 200px;
+    object-fit: contain;
+    border-bottom: 2px solid #FFC627; /* ASU Gold border below image */
+  }
+  
+  /* Badge Title and Text */
+  .asu-maroon {
+    color: #8C1D40; /* ASU Maroon */
+    font-weight: bold;
+  }
+  
+  .asu-gray {
+    color: #747474; /* ASU Gray */
+  }
+  
+  .badge-footer {
+    color: #747474; /* ASU Gray */
+  }
+  
+/* Badge Styling */
+.bg-asu-gold {
+  background-color: #FFC627 !important; /* ASU Gold */
+  color: #8C1D40 !important; /* ASU Maroon text */
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+.bg-asu-turquoise {
+  background-color: #4AB7C4 !important; /* ASU Turquoise */
+  color: #FFFFFF !important; /* White text */
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+}

@@ -1,0 +1,47 @@
+/* Card Styling */
+.login-card {
+  background-color: #FFC627; /* ASU Gold background */
+  border-color: #8C1D40; /* ASU Maroon border */
+  color: #8C1D40; /* ASU Maroon text */
+}
+
+/* Heading Styling */
+.asu-maroon {
+  color: #8C1D40; /* ASU Maroon text */
+  font-weight: bold;
+}
+
+/* Button Styling */
+.asu-gold-btn {
+  background-color: #8C1D40; /* ASU Maroon */
+  border-color: #8C1D40;
+  color: #FFC627; /* ASU Gold */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.asu-gold-btn:hover {
+  background-color: #FFC627; /* ASU Gold on hover */
+  color: #8C1D40; /* ASU Maroon text */
+}
+
+/* Link Styling */
+.asu-maroon-link {
+  color: #8C1D40;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.asu-maroon-link:hover {
+  text-decoration: underline;
+}
+
+/* Form Control Styling */
+.form-control {
+  border-color: #8C1D40; /* ASU Maroon border */
+}
+
+.form-control:focus {
+  box-shadow: 0 0 5px rgba(140, 29, 64, 0.5); /* ASU Maroon shadow */
+  border-color: #8C1D40; /* ASU Maroon border */
+}
