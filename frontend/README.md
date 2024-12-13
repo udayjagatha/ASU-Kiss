@@ -1,36 +1,26 @@
 ## Setup Instructions
 
 1. Clone the repository:
-2. Navigate to the frontend directory:
-3. Install the dependencies:
-   {
-  "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.0",
-    "@mui/material": "^5.14.5",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "devDependencies": {
-    "eslint": "^8.45.0",
-    "eslint-plugin-react": "^7.33.2"
-  }
-}
+git clone <repository-url>
 
-4. Start the frontend: npm start
+2. Navigate to the frontend directory:
+cd frontend
+
+3. Install the dependencies:
+npm install
+
+4. Start the frontend:
+npm start
 
 Similarly, for the backend:
 1. Navigate to the backend directory:
+cd backend
+
 2. Install the dependencies:
-   
+
+3. Start the backend:
+run app.py
+
 
 
 
